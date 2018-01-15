@@ -12,7 +12,7 @@ $python3 manage.py runserver
 ```
 ### nohub
 ```
-$ touch /var/log/flask.log
+$ mkdir ./log/
 $ nohub python3 manage.py runserver >> ./log/flask.log
 ```
 Delete DB
